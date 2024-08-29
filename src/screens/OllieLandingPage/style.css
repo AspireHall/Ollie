@@ -1,0 +1,583 @@
+.ollie-landing-page {
+  background-color: #dbceb4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.ollie-landing-page .div {
+  background-color: #dbceb4;
+  height: 3764px;
+  overflow: hidden;
+  position: relative;
+  width: 1280px;
+}
+
+.ollie-landing-page .overlap {
+  height: 674px;
+  left: 150px;
+  position: absolute;
+  top: 192px;
+  width: 1130px;
+}
+
+.ollie-landing-page .lovepik-com {
+  height: 674px;
+  left: 658px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 472px;
+}
+
+.ollie-landing-page .frame {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  left: 0;
+  position: absolute;
+  top: 95px;
+  width: 742px;
+}
+
+.ollie-landing-page .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 60px;
+  position: relative;
+  width: 100%;
+}
+
+.ollie-landing-page .frame-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.ollie-landing-page .frame-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.ollie-landing-page .text-wrapper {
+  align-self: stretch;
+  color: var(--primary);
+  font-family: "Irish Grover", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  height: 49px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.ollie-landing-page .p {
+  color: var(--b);
+  font-family: "Familjen Grotesk", Helvetica;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: relative;
+  width: 722px;
+}
+
+.ollie-landing-page .text-wrapper-2 {
+  align-self: stretch;
+  color: #6a6a6a;
+  font-family: "Roboto Condensed", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: relative;
+}
+
+.ollie-landing-page .div-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.ollie-landing-page .frame-5 {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 18px 32px;
+  position: relative;
+  width: 187px;
+}
+
+.ollie-landing-page .icon-park-outline {
+  height: 26px;
+  position: relative;
+  width: 26px;
+}
+
+.ollie-landing-page .buy-coin {
+  color: #ffffff;
+  font-family: "Familjen Grotesk", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ollie-landing-page .overlap-group {
+  background-image: url(../../../static/img/rectangle-2.png);
+  background-size: 100% 100%;
+  height: 160px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.ollie-landing-page .img {
+  height: 85px;
+  left: 580px;
+  position: absolute;
+  top: 18px;
+  width: 198px;
+}
+
+.ollie-landing-page .overlap-2 {
+  height: 815px;
+  left: 16px;
+  position: absolute;
+  top: 866px;
+  width: 1108px;
+}
+
+.ollie-landing-page .frame-wrapper {
+  align-items: flex-start;
+  display: flex;
+  gap: 161px;
+  height: 469px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1064px;
+}
+
+.ollie-landing-page .frame-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  width: 798px;
+}
+
+.ollie-landing-page .text-wrapper-3 {
+  align-self: stretch;
+  color: var(--primary);
+  font-family: "Irish Grover", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}
+
+.ollie-landing-page .frame-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.ollie-landing-page .text-wrapper-4 {
+  align-self: stretch;
+  color: #6a6a6a;
+  font-family: "Roboto Condensed", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.ollie-landing-page .text-wrapper-5 {
+  align-self: stretch;
+  color: #6a6a6a;
+  font-family: "Roboto Condensed", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: relative;
+}
+
+.ollie-landing-page .image {
+  height: 406px;
+  left: 134px;
+  position: absolute;
+  top: 409px;
+  width: 387px;
+}
+
+.ollie-landing-page .group {
+  height: 114px;
+  left: 445px;
+  position: absolute;
+  top: 439px;
+  width: 663px;
+}
+
+.ollie-landing-page .overlap-3 {
+  background-color: #f4f4f4;
+  border: 0.3px solid;
+  border-color: var(--primary);
+  border-radius: 10px;
+  height: 114px;
+  position: relative;
+  width: 661px;
+}
+
+.ollie-landing-page .image-wrapper {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  left: 27px;
+  padding: 12px;
+  position: absolute;
+  top: 27px;
+  width: 60px;
+}
+
+.ollie-landing-page .image-2 {
+  height: 44px;
+  margin-bottom: -4px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -4px;
+  object-fit: cover;
+  position: relative;
+  width: 52px;
+}
+
+.ollie-landing-page .text-wrapper-6 {
+  color: var(--secondary);
+  font-family: "Roboto Condensed", Helvetica;
+  font-size: 26px;
+  font-weight: 500;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 44px;
+  white-space: nowrap;
+}
+
+.ollie-landing-page .overlap-group-wrapper {
+  height: 909px;
+  left: 0;
+  position: absolute;
+  top: 1694px;
+  width: 1280px;
+}
+
+.ollie-landing-page .overlap-group-2 {
+  height: 909px;
+  position: relative;
+}
+
+.ollie-landing-page .ellipse {
+  background-color: #d9d9d9;
+  border-radius: 60.67px/91px;
+  height: 182px;
+  left: 242px;
+  position: absolute;
+  top: 389px;
+  width: 121px;
+}
+
+.ollie-landing-page .rectangle-wrapper {
+  background-image: url(../../../static/img/9816141-732.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 909px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.ollie-landing-page .rectangle {
+  background-color: #000000cc;
+  height: 909px;
+}
+
+.ollie-landing-page .frame-8 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  left: 182px;
+  position: absolute;
+  top: 80px;
+  width: 845px;
+}
+
+.ollie-landing-page .frame-9 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 22px;
+  position: relative;
+  width: 100%;
+}
+
+.ollie-landing-page .text-wrapper-7 {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Irish Grover", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.ollie-landing-page .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Roboto Condensed", Helvetica;
+  font-size: 26px;
+  font-weight: 500;
+  height: 44px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: relative;
+  width: 458px;
+}
+
+.ollie-landing-page .frame-10 {
+  align-items: center;
+  display: flex;
+  gap: 161px;
+  left: 0;
+  position: absolute;
+  top: 2655px;
+  width: 1280px;
+}
+
+.ollie-landing-page .image-3 {
+  height: 413px;
+  object-fit: cover;
+  position: relative;
+  width: 597px;
+}
+
+.ollie-landing-page .frame-11 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  position: relative;
+  width: 455px;
+}
+
+.ollie-landing-page .frame-12 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 36px;
+  position: relative;
+  width: 100%;
+}
+
+.ollie-landing-page .text-wrapper-9 {
+  align-self: stretch;
+  color: #6a6a6a;
+  font-family: "Roboto Condensed", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.ollie-landing-page .buy-now {
+  color: #ffffff;
+  font-family: "Familjen Grotesk", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ollie-landing-page .frame-13 {
+  align-items: center;
+  display: flex;
+  gap: 161px;
+  left: 150px;
+  position: absolute;
+  top: 3297px;
+  width: 981px;
+}
+
+.ollie-landing-page .frame-14 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  position: relative;
+  width: 798px;
+}
+
+.ollie-landing-page .frame-15 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: -821px;
+  position: relative;
+  width: 1619px;
+}
+
+.ollie-landing-page .frame-16 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 27px;
+  position: relative;
+  width: 100%;
+}
+
+.ollie-landing-page .text-wrapper-10 {
+  color: #6a6a6a;
+  font-family: "Roboto Condensed", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-top: -1px;
+  position: relative;
+  width: 987px;
+}
+
+.ollie-landing-page .overlap-4 {
+  background-color: var(--primary);
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 3638px;
+  width: 1920px;
+}
+
+.ollie-landing-page .frame-17 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 149px;
+  position: relative;
+  top: 21px;
+  width: 1092px;
+}
+
+.ollie-landing-page .frame-18 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 80px;
+  position: relative;
+}
+
+.ollie-landing-page .frame-19 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 14px;
+  position: relative;
+}
+
+.ollie-landing-page .image-4 {
+  height: 85px;
+  position: relative;
+  width: 94px;
+}
+
+.ollie-landing-page .text-wrapper-11 {
+  color: #ffffff;
+  font-family: "Irish Grover", Helvetica;
+  font-size: 46px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.ollie-landing-page .frame-20 {
+  position: relative;
+  width: 135px;
+}
+
+.ollie-landing-page .all-right-reserved {
+  color: #ffffff;
+  font-family: "Roboto Condensed", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.x {
+  width: 50px;
+  height: 50px;
+}
