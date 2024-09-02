@@ -157,6 +157,8 @@
   position: absolute;
   top: 0;
   width: 1280px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
 }
 
 .ollie-landing-page .img {
@@ -331,14 +333,18 @@
 }
 
 .ollie-landing-page .rectangle-wrapper {
-  background-image: url(../../../static/img/9816141-732.png);
+  background-image: url(../../../src/Chart/Chartbg.png);
   background-position: 50% 50%;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 909px;
   left: 0;
   position: absolute;
   top: 0;
   width: 1280px;
+  border-radius: 10px;
 }
 
 .ollie-landing-page .rectangle {
@@ -354,7 +360,7 @@
   left: 182px;
   position: absolute;
   top: 80px;
-  width: 845px;
+  width: 100%;
 }
 
 .ollie-landing-page .frame-9 {
@@ -407,7 +413,8 @@
   height: 413px;
   object-fit: cover;
   position: relative;
-  width: 597px;
+  border-radius: 20px;
+  width: 600px;
 }
 
 .ollie-landing-page .frame-11 {

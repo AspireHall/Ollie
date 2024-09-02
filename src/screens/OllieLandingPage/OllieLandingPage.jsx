@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 import x from "./X_Twiter_logo.jpg";
+import Chart from "../../Chart/Chart";
+import coins from "../../../src/screens//OllieLandingPage/olliecoins.png";
 
 export const OllieLandingPage = () => {
   return (
@@ -64,9 +66,9 @@ export const OllieLandingPage = () => {
                   • Contract Renounce and LP Burned
                 </p>
                 <p className="text-wrapper-4">
-                  • 95.5% Total Supply Release to Market
+                  • 95% Of Liquity Release to Market in Phases
                 </p>
-                <p className="text-wrapper-4">• Starting Price $0.00003</p>
+                <p className="text-wrapper-4">• Starting Price $0.0000015</p>
               </div>
             </div>
           </div>
@@ -82,23 +84,13 @@ export const OllieLandingPage = () => {
         </div>
         <div className="overlap-group-wrapper">
           <div className="overlap-group-2">
-            <div className="ellipse" />
             <div className="rectangle-wrapper">
-              <div className="rectangle" />
-            </div>
-            <div className="frame-8">
-              <div className="frame-9">
-                <div className="text-wrapper-7">Ollie Coin Price Action</div>
-                <p className="text-wrapper-8">
-                  view Ollie Coin Price action on dexscreener
-                </p>
-                <p className="text-wrapper-8">Updating Once Coin goes live</p>
-              </div>
+              <Chart />
             </div>
           </div>
         </div>
         <div className="frame-10">
-          <img className="image-3" alt="Image" src="/img/image.png" />
+          <img className="image-3" alt="Image" src={coins} />
           <div className="frame-11">
             <div className="frame-3">
               <div className="text-wrapper-3">How To Buy Token?</div>
@@ -106,6 +98,9 @@ export const OllieLandingPage = () => {
                 <p className="text-wrapper-9">
                   Head Over to Raydium.io or click on the button below to buy
                   Ollie Coin
+                </p>
+                <p className="text-wrapper-9">
+                  Contract Address: 9T6X98LaLfeCmyZnMuCeaXX7Fh9P6t7Hi6izSruGm1qi
                 </p>
               </div>
             </div>
@@ -131,8 +126,8 @@ export const OllieLandingPage = () => {
                 <p className="text-wrapper-10">
                   Ollie coin is a meme coin with no intrinsic value or
                   expectation of financial return. There is no formal team or
-                  roadmap. the coin is completely useless and for entertainment
-                  purposes only.
+                  roadmap. Ollie coin is completely useless and for
+                  entertainment purposes only.
                 </p>
               </div>
             </div>
