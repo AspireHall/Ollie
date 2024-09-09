@@ -4,12 +4,13 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  height: 4364px;
 }
 
 .ollie-landing-page .div {
   background-color: #dbceb4;
-  height: 3764px;
   overflow: hidden;
+  display: block;
   position: relative;
   width: 1280px;
 }
@@ -401,7 +402,7 @@
 
 .ollie-landing-page .frame-10 {
   align-items: center;
-  display: flex;
+  display: block;
   gap: 161px;
   left: 0;
   position: absolute;
@@ -587,4 +588,48 @@
 .x {
   width: 50px;
   height: 50px;
+}
+
+.ollieContainer {
+  width: 100%;
+  height: 700px;
+}
+
+.whatisOllie {
+  width: 100%;
+  height: 500px;
+}
+
+.Ollieleft {
+  float: left;
+  width: 50%;
+}
+.Ollieright {
+  float: right;
+  width: 50%;
+}
+
+.Olliesweeper {
+  align-self: stretch;
+  color: var(--primary);
+  font-family: "Irish Grover", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  height: 49px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.boardcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  width: fit-content;
 }
