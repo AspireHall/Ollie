@@ -633,3 +633,7 @@
 .board {
   width: fit-content;
 }
+
+.retry {
+  width: 100px;
+}
