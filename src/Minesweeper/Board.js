@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import createBoard from "./util/createBoard";
+import createBoard from "./Util/createBoard";
 import Cell from "./Cell";
 import { revealed } from "./Util/reveal";
 import Modal from "./Modal";
@@ -66,7 +66,7 @@ const Board = () => {
 
   return (
     <div>
-      <Timer onGameOver={gameOver} />
+      <Timer onGameOver={gameOver} onRestartGame={restartGame} />
 
       <div
         style={{

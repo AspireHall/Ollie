@@ -12,7 +12,7 @@ export default function Modal({ restartGame }) {
       style={{
         opacity: render ? 1 : 0,
         height: "100%",
-        width: "100%",
+        width: "50%",
         position: "absolute",
         background: "rgba(0,0,0,0.3)",
       }}

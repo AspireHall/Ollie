@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import clock from "../screens/OllieLandingPage/clock67pixel.png";
 let timeIntervalId;
 export default function Timer(props, { gameOver, sendTime }) {
   let [time, setTime] = useState(0);
@@ -28,7 +29,11 @@ export default function Timer(props, { gameOver, sendTime }) {
   return (
     <div style={{ color: "white", fontSize: 30, background: "maroon" }}>
       <span role="img" aria-label="clock" style={{ paddingRight: 10 }}>
-        ⏰
+        <img
+          style={{ width: "30px", height: "35px", marginLeft: "10px" }}
+          src={clock}
+          alt="clock"
+        />
       </span>
       {time}
     </div>

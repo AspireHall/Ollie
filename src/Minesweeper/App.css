@@ -54,16 +54,18 @@ body {
 }
 
 #gameOverImage {
-  opacity: 100;
+  opacity: 0.9;
   z-index: 4;
   height: 70%;
-  max-width: 100%;
+  max-width: 50%;
   margin: 0 50px;
-  background: url("https://www.google.com/logos/fnbx/minesweeper/lose_screen.png")
-    0px 80px no-repeat;
-  background-repeat: repeat-x;
+  background: url("../screens/OllieLandingPage/SlothJaguar.png") 0px 80px
+    no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
   position: relative;
   padding-top: 20px;
+  margin-left: 150px;
 }
 
 .tryAgain {
@@ -74,4 +76,6 @@ body {
   color: rgb(158, 255, 158);
   padding: 10px;
   font-weight: 700;
+  max-width: 50%;
+  margin-left: 150px;
 }
