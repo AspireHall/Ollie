@@ -31,7 +31,7 @@ const Section1 = () => {
                   src="/img/icon-park-outline-buy.svg"
                 />
                 <a
-                  href="https://raydium.io/swap/?inputMint=sol&outputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+                  href="https://raydium.io/swap/?inputMint=sol&outputMint=9T6X98LaLfeCmyZnMuCeaXX7Fh9P6t7Hi6izSruGm1qi"
                   className="buy-coin"
                 >
                   BUY COIN
