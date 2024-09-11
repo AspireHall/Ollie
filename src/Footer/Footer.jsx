@@ -1,5 +1,5 @@
 import React from "react";
-import x from "../X_Twiter_logo.jpg";
+import x from "../Assets/X_Twiter_logo.jpg";
 import classes from "./Footer.module.css";
 
 const Footer = () => {

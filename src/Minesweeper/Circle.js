@@ -1,5 +1,5 @@
 import React from "react";
-import jaguar from "../screens/OllieLandingPage/Jaquar32pixel.png";
+import jaguar from "../Assets/Jaquar32pixel.png";
 
 export default function Circle() {
   return (

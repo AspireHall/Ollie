@@ -1,5 +1,5 @@
 import React from "react";
-import "../screens/OllieLandingPage/style.css";
+import "../Pages/LandingPage/style.css";
 import Board from "./Board";
 
 const Minesweeper = () => {

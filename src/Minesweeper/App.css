@@ -59,8 +59,7 @@ body {
   height: 70%;
   max-width: 50%;
   margin: 0 50px;
-  background: url("../screens/OllieLandingPage/SlothJaguar.png") 0px 80px
-    no-repeat;
+  background: url("../Assets/SlothJaguar.png") 0px 80px no-repeat;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;

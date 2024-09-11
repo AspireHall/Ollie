@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import clock from "../screens/OllieLandingPage/clock67pixel.png";
+import clock from "../Assets/clock67pixel.png";
 let timeIntervalId;
 export default function Timer(props, { gameOver, sendTime }) {
   let [time, setTime] = useState(0);

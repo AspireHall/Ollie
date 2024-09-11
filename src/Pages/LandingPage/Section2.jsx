@@ -1,10 +1,11 @@
 import React from "react";
+import babysloth from "../../Assets/BabySlothCoin300pix.png";
 import "./style.css";
 
 const Section2 = () => {
   return (
     <div className="overlap-2">
-      <div className="frame-wrapper">
+      <div>
         <div className="frame-6">
           <div className="text-wrapper-3">About Ollie</div>
           <div className="frame-7">
@@ -12,6 +13,12 @@ const Section2 = () => {
               Ollie is the adorable sloth that wants to relax and enjoy the
               market. The dogs, the cats, the pepe, the inu and everything in
               between can move over and make room for the adorable sloth.
+              <br />
+              <br />
+              Bringing Services, price ticks, and games to help you in your
+              crypto journey. Watch your favorite token, compare prices, and
+              save favorites. Ollie bringing you these services, while you play
+              a game or two and being an adorable sloth to be at your side.
             </p>
             <div className="text-wrapper-3"> Ollienomics</div>
             <p className="text-wrapper-4">• Supply: 1 Billion</p>
@@ -23,7 +30,7 @@ const Section2 = () => {
           </div>
         </div>
       </div>
-      <img className="image" alt="Image" src="/img/image-3.png" />
+      <img className="image" alt="Image" src={babysloth} />
       <div className="group">
         <div className="overlap-3">
           <div className="image-wrapper">

@@ -1,18 +1,18 @@
 import React from "react";
 import "./style.css";
-import coins from "../../../src/screens//OllieLandingPage/olliecoins.png";
+import coins from "../../Assets/olliecoins.png";
 import Minesweeper from "../../Minesweeper/Minesweeper";
-import Section1 from "./Section1";
+import Section1 from "./Section1/Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
-import Navbar from "./Navbar";
-import Footer from "./Footer/Footer";
+import Navbar from "../../NavBar/Navbar";
+import Footer from "../../Footer/Footer";
 export const OllieLandingPage = () => {
   return (
     <div>
+      <Navbar />
       <div className="ollie-landing-page">
         <div className="div">
-          <Navbar />
           <Section1 />
           <Section2 />
           <Section3 />

@@ -1,9 +1,10 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
+import classes from "./Section1.module.css";
 
 const Section1 = () => {
   return (
-    <div className="overlap">
+    <div className={classes.mainContainer}>
       <img
         className="lovepik-com"
         alt="Lovepik com"
@@ -23,21 +24,7 @@ const Section1 = () => {
             </p>
           </div>
           <div className="div-wrapper">
-            <div className="div-wrapper">
-              <div className="frame-5">
-                <img
-                  className="icon-park-outline"
-                  alt="Icon park outline"
-                  src="/img/icon-park-outline-buy.svg"
-                />
-                <a
-                  href="https://raydium.io/swap/?inputMint=sol&outputMint=9T6X98LaLfeCmyZnMuCeaXX7Fh9P6t7Hi6izSruGm1qi"
-                  className="buy-coin"
-                >
-                  BUY COIN
-                </a>
-              </div>
-            </div>
+            <div className="div-wrapper"></div>
           </div>
         </div>
       </div>

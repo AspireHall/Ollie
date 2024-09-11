@@ -2,7 +2,7 @@ import React from "react";
 import { mineColor } from "./Util/mineColors";
 import "./App.css";
 import Circle from "./Circle";
-import treeflag from "../screens/OllieLandingPage/jungletree32pixel.png";
+import treeflag from "../Assets/jungletree32pixel.png";
 
 export default function Cell({ details, updateFlag, revealCell }) {
   const cellstyle = {
