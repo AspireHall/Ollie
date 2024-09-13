@@ -1,5 +1,4 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-
 const accessKey = process.env.REACT_APP_COINLAYER_API_KEY;
 
 // Define a service using a base URL and expected endpoints
