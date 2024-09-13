@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./PriceTicks.module.css";
-import { useGetPriceByCoinQuery } from "./CoinLayerApi";
+import { useGetPriceByCoinQuery } from "./coinLayerApi";
 
 const PriceTicks = () => {
   const { data, error, isLoading } = useGetPriceByCoinQuery("en-US");
