@@ -5,8 +5,13 @@ import { useGetPriceByCoinQuery } from "./coinLayerApi";
 const PriceTicks = () => {
   const { data, error, isLoading } = useGetPriceByCoinQuery("en-US");
 
-  if (error) <h6>Error, sorry</h6>;
-  if (isLoading) <h6>Loading...</h6>;
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error...</div>;
+  }
 
   let btc = data?.rates.BTC.toFixed(0).toLocaleString("en-US");
   let eth = data?.rates.ETH.toFixed(0).toLocaleString("en-US");
