@@ -6,7 +6,7 @@ const realaccessKey = "301b6086caaa44ae88de4510e2e9343b";
 export const coinLayerApi = createApi({
   reducerPath: "coinLayerApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://api.coinlayer.com/api/",
+    baseUrl: "https://api.coinlayer.com/api/",
   }),
   endpoints: (builder) => ({
     getPriceByCoin: builder.query({
