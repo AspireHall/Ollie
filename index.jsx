@@ -1,4 +1,3 @@
-require("dotenv").config();
 import React from "react";
 import ReactDOMClient from "react-dom/client";
 import { OllieLandingPage } from "./src/Pages/LandingPage";
