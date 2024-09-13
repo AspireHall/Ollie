@@ -1,0 +1,18 @@
+.mainContainer {
+  height: 50px;
+  background-color: darkslategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.symbolText {
+  color: goldenrod;
+  font-size: 24px;
+  margin-right: 15px;
+  margin-left: 30px;
+}
+.priceText {
+  color: white;
+  font-size: 20px;
+}

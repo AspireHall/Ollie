@@ -7,10 +7,12 @@ import Section2 from "./Section2";
 import Section3 from "./Section3";
 import Navbar from "../../NavBar/Navbar";
 import Footer from "../../Footer/Footer";
+import PriceTicks from "../../Features/PriceTicks";
 export const OllieLandingPage = () => {
   return (
     <div>
       <Navbar />
+      <PriceTicks />
       <div className="ollie-landing-page">
         <div className="div">
           <Section1 />
