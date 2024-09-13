@@ -3,8 +3,8 @@ import classes from "./PriceTicks.module.css";
 import { useGetPriceByCoinQuery } from "./coinLayerApi";
 
 const PriceTicks = () => {
-  const { data, error, isLoading } = useGetPriceByCoinQuery("en-US");
-
+  const { data, error, isLoading } = useGetPriceByCoinQuery();
+  /*
   if (isLoading) {
     return <div>Loading...</div>;
   }
@@ -20,11 +20,10 @@ const PriceTicks = () => {
   let xrp = data?.rates.XRP.toFixed(3).toLocaleString("en-US");
   let ada = data?.rates.ADA.toFixed(3).toLocaleString("en-US");
   let doge = data?.rates.DOGE.toFixed(3).toLocaleString("en-US");
-  let avax = data?.rates.AVAX.toFixed(2).toLocaleString("en-US");
-
+  let avax = data?.rates.AVAX.toFixed(2).toLocaleString("en-US");*/
   return (
     <div className={classes.mainContainer}>
-      <h1 className={classes.symbolText}>BTC</h1>
+      {/* <h1 className={classes.symbolText}>BTC</h1>
       <h1 className={classes.priceText}>${btc}</h1>
       <h1 className={classes.symbolText}>ETH</h1>
       <h1 className={classes.priceText}>${eth}</h1>
@@ -40,6 +39,7 @@ const PriceTicks = () => {
       <h1 className={classes.priceText}>${doge}</h1>
       <h1 className={classes.symbolText}>AVAX</h1>
       <h1 className={classes.priceText}>${avax}</h1>
+      */}
     </div>
   );
 };
