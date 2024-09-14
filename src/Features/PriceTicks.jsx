@@ -42,9 +42,17 @@ const PriceTicks = () => {
           <h1 className={classes.priceText}>
             ${data?.rates.DOGE.toFixed(3).toLocaleString("en-US")}
           </h1>
-          <h1 className={classes.symbolText}>AVAX</h1>
+          <h1 className={classes.symbolText}>LINK</h1>
           <h1 className={classes.priceText}>
-            ${data?.rates.AVAX.toFixed(2).toLocaleString("en-US")}
+            ${data?.rates.LINK.toFixed(2).toLocaleString("en-US")}
+          </h1>
+          <h1 className={classes.symbolText}>LTC</h1>
+          <h1 className={classes.priceText}>
+            ${data?.rates.LTC.toFixed(2).toLocaleString("en-US")}
+          </h1>
+          <h1 className={classes.symbolText}>XMR</h1>
+          <h1 className={classes.priceText}>
+            ${data?.rates.XMR.toFixed(2).toLocaleString("en-US")}
           </h1>
         </>
       ) : null}
