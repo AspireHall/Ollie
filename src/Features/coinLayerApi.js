@@ -10,7 +10,7 @@ export const coinLayerApi = createApi({
   }),
   endpoints: (builder) => ({
     getPriceByCoin: builder.query({
-      query: () => "/live" + "?access_key=" + accessKey,
+      query: () => "/live" + "?access_key=" + realaccessKey,
     }),
   }),
 });
