@@ -1,0 +1,27 @@
+.mainContainer {
+  background-color: #dbceb4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 4364px;
+}
+
+.priceTicks {
+  color: black;
+  font-size: 20px;
+}
+
+.urlimage {
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.newsTitle {
+  font-size: 24px;
+  color: black;
+}
+
+.container {
+  margin-top: 30px;
+}

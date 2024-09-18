@@ -1,14 +1,16 @@
 .mainContainer {
   height: 100px;
-  background-color: white;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  background-color: black;
+
   padding-left: 5%;
   padding-right: 5%;
   display: flex;
 }
 .leftContainer {
   width: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 .centerContainer {
@@ -30,39 +32,64 @@
   scale: 0.75;
 }
 
-.buttonoutline {
-  align-items: center;
-  background-color: var(--primary);
-  border-radius: 30px;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  padding: 18px 32px;
-  position: relative;
-  width: 187px;
+.logo2 {
+  width: 64px;
+  height: 64px;
+  scale: 0.65;
 }
+
+.logoTitle {
+  color: white;
+  font-size: 30px;
+  font-family: "Irish Grover", Helvetica;
+}
+
 .icon {
   height: 26px;
   position: relative;
   width: 26px;
 }
 
-.centerText {
-  color: black;
-  font-family: "Familjen Grotesk", Helvetica;
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: 4;
+.menuText {
+  color: lightgray;
+  opacity: 50%;
+  font-family: "Lato";
+  font-weight: 300;
+  background-image: none;
+  font-size: 20px;
+  margin-left: 30px;
+  font-weight: 400;
+  letter-spacing: 1;
+}
+
+.menuText:hover {
+  opacity: 100%;
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 .buycoin {
   color: #ffffff;
   font-family: "Familjen Grotesk", Helvetica;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 0;
   line-height: 18px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
+}
+
+.buttonoutline {
+  align-items: center;
+  background-image: linear-gradient(to right, #a0733a, #d7734e);
+  border-radius: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 18px 32px;
+  position: relative;
+  height: 30px;
+  width: 187px;
 }

@@ -1,0 +1,31 @@
+.mainContainer {
+  background-color: #dbceb4;
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 1280px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.secondContainer {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.thirdContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: brown;
+  font-size: 30px;
+}
+
+.mineContainer {
+  width: fit-content;
+}

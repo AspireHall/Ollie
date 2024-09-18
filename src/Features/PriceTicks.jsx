@@ -1,10 +1,16 @@
 import React from "react";
 import classes from "./PriceTicks.module.css";
 import { useGetPriceByCoinQuery } from "./coinLayerApi";
+import { useGetAllTickersQuery } from "./polygonApi";
+import { useGetCryptoNewsQuery } from "./cryptoNewsApi";
 
 const PriceTicks = () => {
   const { data, error, isLoading } = useGetPriceByCoinQuery();
-  console.log(data);
+  const {
+    data: polydata,
+    error: polygonerror,
+    isLoading: polygonisLoading,
+  } = useGetAllTickersQuery();
 
   return (
     <div className={classes.mainContainer}>

@@ -1,6 +1,6 @@
 .mainContainer {
   height: 50px;
-  background-color: darkslategrey;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;

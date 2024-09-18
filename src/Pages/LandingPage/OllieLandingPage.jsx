@@ -5,14 +5,15 @@ import Minesweeper from "../../Minesweeper/Minesweeper";
 import Section1 from "./Section1/Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
-import Navbar from "../../NavBar/Navbar";
+import HeaderAd from "./HeaderAd/HeaderAd";
+
 import Footer from "../../Footer/Footer";
 import PriceTicks from "../../Features/PriceTicks";
+import PolygonPriceTicks from "../../Features/PolygonPriceTicks";
 export const OllieLandingPage = () => {
   return (
     <div>
-      <Navbar />
-      <PriceTicks />
+      <HeaderAd />
       <div className="ollie-landing-page">
         <div className="div">
           <Section1 />
@@ -71,7 +72,6 @@ export const OllieLandingPage = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
