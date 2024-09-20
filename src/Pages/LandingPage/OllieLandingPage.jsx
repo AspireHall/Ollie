@@ -6,6 +6,7 @@ import Section1 from "./Section1/Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
 import HeaderAd from "./HeaderAd/HeaderAd";
+import BodySection from "./BodySection/BodySection";
 
 import Footer from "../../Footer/Footer";
 import PriceTicks from "../../Features/PriceTicks";
@@ -14,6 +15,7 @@ export const OllieLandingPage = () => {
   return (
     <div>
       <HeaderAd />
+      <BodySection />
       <div className="ollie-landing-page">
         <div className="div">
           <Section1 />
@@ -23,9 +25,7 @@ export const OllieLandingPage = () => {
           <div className="frame-10">
             <div className="ollieContainer">
               <div className="boardcontainer">
-                <div className="board">
-                  <Minesweeper />
-                </div>
+                <div className="board"></div>
               </div>
             </div>
             <div className="whatisOllie">

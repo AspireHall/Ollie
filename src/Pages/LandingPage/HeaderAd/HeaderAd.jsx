@@ -19,7 +19,9 @@ const HeaderAd = () => {
         </a>
       </div>
       <div className={classes.rightContainer}>
-        <img className={classes.image} src={data?.data[0].image_url} />
+        <div className={classes.imageContainer}>
+          <img className={classes.image} src={data?.data[0].image_url} />
+        </div>
       </div>
     </div>
   );

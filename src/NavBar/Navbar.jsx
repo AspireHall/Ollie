@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import logo from "../Assets/OllieCoinlogo.png";
+import logo2 from "../Assets/OlliTextLogowhite.png";
 import PriceTicks from "../Features/PriceTicks";
 
 const Navbar = () => {
@@ -9,8 +10,7 @@ const Navbar = () => {
     <div>
       <div className={classes.mainContainer}>
         <div className={classes.leftContainer}>
-          <img className={classes.logo2} alt="Frame" src={logo} />
-          <h1 className={classes.logoTitle}>Ollie</h1>
+          <img className={classes.logo2} src={logo2} alt="logo2" />
         </div>
         <div className={classes.centerContainer}>
           <Link className={classes.menuText} to="/">

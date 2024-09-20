@@ -1,0 +1,32 @@
+.mainContainer {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #111111, #050505, #111111);
+}
+
+.menuBar {
+  height: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  font-family: "Lato";
+  opacity: 80%;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.link:hover {
+  color: white;
+  opacity: 100%;
+  scale: 1.1;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
