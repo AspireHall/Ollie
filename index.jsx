@@ -6,6 +6,7 @@ import { OllieLandingPage } from "./src/index";
 import AboutPage from "./src/Pages/About/AboutPage";
 import NewsPage from "./src/Pages/NewsPage/NewsPage";
 import { Provider } from "react-redux";
+
 import {
   createBrowserRouter,
   RouterProvider,

@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./PriceTicks.module.css";
-import { useGetAllTickersQuery } from "../../Features/polygonApi";
 
 const PriceTickPage = () => {
   return (
