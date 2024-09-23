@@ -24,7 +24,7 @@
 
 .background {
   height: 75px;
-  background-color: #a0733a;
+  background-image: linear-gradient(to bottom, #111111, #151515, #111111);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,4 +52,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.text {
+  color: white;
+}
+
+.logo2 {
+  max-height: 50px;
+  width: auto;
 }

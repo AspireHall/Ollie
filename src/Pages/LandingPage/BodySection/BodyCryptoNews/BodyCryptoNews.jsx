@@ -33,7 +33,7 @@ const BodyCryptoNews = () => {
         <a href={item.news_url}>
           <div className={classes.cardContainer} key={item.title}>
             <img className={classes.image} src={item.image_url} />
-            <h4 className={classes.title}>{item.title}</h4>
+            <h4 className={classes.title}>{item.title.slice(0, 60)}...</h4>
             <div className={classes.button}> Read Article</div>
           </div>
         </a>
@@ -42,7 +42,7 @@ const BodyCryptoNews = () => {
         <a href={item.news_url}>
           <div className={classes.cardContainer} key={item.title}>
             <img className={classes.image} src={item.image_url} />
-            <h4 className={classes.title}>{item.title}</h4>
+            <h4 className={classes.title}>{item.title.slice(0, 60)}...</h4>
             <div className={classes.button}> Read Article</div>
           </div>
         </a>

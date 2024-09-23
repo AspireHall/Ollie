@@ -1,6 +1,6 @@
 .mainContainer {
   width: 100%;
-  height: 700spx;
+  height: 100%;
   display: flex;
   background-image: linear-gradient(to bottom, #111111, #333333, #111111);
 }
@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   width: 20%;
-  height: 700px;
+  height: 100%;
   background-image: linear-gradient(to bottom, #050505, #222222, #050505);
 }
 
@@ -19,13 +19,22 @@
   display: block;
   justify-content: center;
   width: 60%;
-  height: 700px;
+  height: 100%;
 }
 .rightContainer {
   color: white;
   display: flex;
   justify-content: center;
   width: 20%;
-  height: 700px;
+  height: 100%;
   background-image: linear-gradient(to bottom, #050505, #222222, #050505);
+}
+
+.chartContainer {
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }

@@ -4,6 +4,7 @@ import { setupListeners } from "@reduxjs/toolkit/query";
 import { coinLayerApi } from "./coinLayerApi";
 import { polygonApi } from "./polygonApi";
 import { cryptoNewsApi } from "./cryptoNewsApi";
+import { moralisApisol } from "./moralisApisol";
 
 export const store = configureStore({
   reducer: {
@@ -11,6 +12,7 @@ export const store = configureStore({
     [coinLayerApi.reducerPath]: coinLayerApi.reducer,
     [polygonApi.reducerPath]: polygonApi.reducer,
     [cryptoNewsApi.reducerPath]: cryptoNewsApi.reducer,
+    [moralisApisol.reducerPath]: moralisApisol.reducer,
   },
   // Adding the api middleware enables caching, invalidation, polling,
   // and other useful features of `rtk-query`.
@@ -18,7 +20,8 @@ export const store = configureStore({
     getDefaultMiddleware().concat(
       coinLayerApi.middleware,
       polygonApi.middleware,
-      cryptoNewsApi.middleware
+      cryptoNewsApi.middleware,
+      moralisApisol.middleware
     ),
 });
 

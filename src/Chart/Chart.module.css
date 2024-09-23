@@ -1,9 +1,13 @@
-.Chart {
-  width: 700px;
-  height: 500px;
-  @media (min-width: 1400px) {
-    position: relative;
-    width: 1200px;
-    height: 800px;
+.chart {
+  height: 700px;
+  width: 1000px;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 1700px) {
+  .chart {
+    height: 500px;
+    width: 700px;
+    border-radius: 20px;
   }
 }
