@@ -22,9 +22,11 @@ const HowToBuy = () => {
             <div className={classes.title}>What is Ollie Coin?</div>
 
             <p className={classes.text}>
-              Ollie coin is a meme coin with no intrinsic value or expectation
-              of financial return. There is no formal team or roadmap. Ollie
-              coin is completely useless and for entertainment purposes only.
+              Ollie coin has not intrinsic value or expectation of financial
+              return. This is a solo developer project and there is not formal
+              team or roadmap. Ollie coin is completely useless and for
+              entertainment purposes only. Ollie coin will have utility for this
+              platform, as the the project grows.
             </p>
           </div>
         </div>
