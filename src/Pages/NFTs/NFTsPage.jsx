@@ -6,7 +6,7 @@ const NFTsPage = () => {
   const { data, error, isLoading } = useGetOpenSeaNFTsQuery();
 
   if (isLoading) {
-    return <div>Loading</div>;
+    return <div>Loading..</div>;
   }
   if (error) {
     return <div>Error on Page</div>;
