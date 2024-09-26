@@ -1,0 +1,77 @@
+.mainContainer {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardContainer {
+  color: rgb(189, 189, 189);
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 65px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 2px;
+  background-image: linear-gradient(to right, #111111, #222222);
+  border-style: solid;
+  border-width: 5px;
+}
+.cardContainer:hover {
+  color: red;
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 65px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 2px;
+  background-image: linear-gradient(to right, #111111, #222222);
+  border-style: solid;
+  border-width: 5px;
+}
+
+.iconContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.chainId {
+  margin-left: 5px;
+  color: white;
+  font-size: 24px;
+  font-family: "Lato";
+}
+
+.description {
+  margin-top: 5px;
+  color: white;
+  font-size: 12px;
+  font-family: "Lato";
+}
+
+.tokenAddress {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: red;
+  font-size: 14px;
+  font-family: "Lato";
+  word-wrap: break-word;
+}
+
+/*background-image: linear-gradient(to right, #111111, #222222);*/

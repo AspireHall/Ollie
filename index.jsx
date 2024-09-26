@@ -5,6 +5,7 @@ import App from "./src/Pages/App";
 import { OllieLandingPage } from "./src/index";
 import AboutPage from "./src/Pages/About/AboutPage";
 import NewsPage from "./src/Pages/NewsPage/NewsPage";
+import NFTsPage from "./src/Pages/NFTs/NFTsPage";
 import { Provider } from "react-redux";
 
 import {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
         path: "/News",
         element: <NewsPage />,
       },
+      {
+        path: "/NFTs",
+        element: <NFTsPage />,
+      },
     ],
   },
 ]);
@@ -52,6 +57,7 @@ import { store } from "./src/Features/store";
 import PriceTickPage from "./src/Pages/PriceTickPage/PriceTickPage";
 import GamesPage from "./src/Pages/GamesPage/GamesPage";
 import ServicesPage from "./src/Pages/Services/ServicesPage";
+import NFTsPage from "./src/Pages/NFTs/NFTsPage";
 
 const app = document.getElementById("app");
 const root = ReactDOMClient.createRoot(app);

@@ -98,7 +98,7 @@
 
 .buttonoutline {
   align-items: center;
-  background-image: linear-gradient(to right, #a0733a, #d7734e);
+  background-image: linear-gradient(to right, #93012f, #af0707, #93012f);
   border-radius: 30px;
   display: flex;
   gap: 10px;

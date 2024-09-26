@@ -16,19 +16,22 @@ const Navbar = () => {
           <Link className={classes.menuText} to="/">
             Home
           </Link>
-          <Link className={classes.menuText} to="/News">
+          <Link className={classes.menuText} to="/">
             News
           </Link>
-          <Link className={classes.menuText} to="/Services">
+          <Link className={classes.menuText} to="/">
             Services
           </Link>
-          <Link className={classes.menuText} to="/PriceTicks">
+          <Link className={classes.menuText} to="/">
             Price Ticks
           </Link>
-          <Link className={classes.menuText} to="/Games">
+          <Link className={classes.menuText} to="/">
             Games
           </Link>
-          <Link className={classes.menuText} to="/About">
+          <Link className={classes.menuText} to="/NFTs">
+            NFTs
+          </Link>
+          <Link className={classes.menuText} to="/">
             About
           </Link>
         </div>

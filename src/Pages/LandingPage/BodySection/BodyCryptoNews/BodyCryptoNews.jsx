@@ -12,7 +12,6 @@ const BodyCryptoNews = () => {
     error: tickerError,
     isLoading: tickerIsLoading,
   } = useGetAllTickerNewsQuery();
-  console.log(tickerData);
 
   if (isLoading) {
     return <div>Loading...</div>;
@@ -30,22 +29,22 @@ const BodyCryptoNews = () => {
   return (
     <div className={classes.mainContainer}>
       {data?.data.map((item) => (
-        <a href={item.news_url}>
-          <div className={classes.cardContainer} key={item.title}>
+        <div className={classes.cardContainer} key={item.title}>
+          <a href={item.news_url}>
             <img className={classes.image} src={item.image_url} />
             <h4 className={classes.title}>{item.title.slice(0, 60)}...</h4>
             <div className={classes.button}> Read Article</div>
-          </div>
-        </a>
+          </a>
+        </div>
       ))}
       {tickerData?.data.map((item) => (
-        <a href={item.news_url}>
-          <div className={classes.cardContainer} key={item.title}>
+        <div className={classes.cardContainer} key={item.title}>
+          <a href={item.news_url}>
             <img className={classes.image} src={item.image_url} />
             <h4 className={classes.title}>{item.title.slice(0, 60)}...</h4>
             <div className={classes.button}> Read Article</div>
-          </div>
-        </a>
+          </a>
+        </div>
       ))}
     </div>
   );
