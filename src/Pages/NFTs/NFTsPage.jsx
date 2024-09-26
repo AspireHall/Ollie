@@ -1,6 +1,6 @@
 import { useGetOpenSeaNFTsQuery } from "../../Features/blockSpanApi";
 import classes from "./NFTsPage.module.css";
-import NftPlaceHolder from "../../assets/NftBanner.png";
+import NftPlaceHolder from "../../Assets/NftBanner.png";
 
 const NFTsPage = () => {
   const { data, error, isLoading } = useGetOpenSeaNFTsQuery();
