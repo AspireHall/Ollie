@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { useGetOpenSeaRankingsQuery } from "../../Features/blockSpanApi";
 import classes from "./NFTsPage.module.css";
-import NftPlaceHolder from "../../assets/NftBanner.png";
+import NftPlaceHolder from "../../Assets/NftBanner.png";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
-import looksRare from "../../assets/icon-lightbg.svg";
+import looksRare from "../../Assets/icon-lightbg.svg";
 import openSea from "../../Assets/opensealogo.png";
 import magicEden from "../../Assets/magicEdenLogo.png";
 import { green, red, yellow, purple } from "@mui/material/colors";
