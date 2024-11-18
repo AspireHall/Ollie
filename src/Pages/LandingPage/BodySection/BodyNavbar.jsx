@@ -20,7 +20,7 @@ const BodyNavbar = (props) => {
         </Link>
 
         <Link className={classes.link} onClick={props.newCoinsHandler}>
-          New Coins
+          New Coin/Pools
         </Link>
       </div>
     </div>

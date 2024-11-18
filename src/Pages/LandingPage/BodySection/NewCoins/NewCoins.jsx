@@ -4,6 +4,7 @@ import { useGetLatestTokenProfilesQuery } from "../../../../Features/dexScreener
 
 const NewCoins = () => {
   const { data, error, isLoading } = useGetLatestTokenProfilesQuery();
+  console.log(data);
 
   if (isLoading) {
     return <div>Loading...</div>;
@@ -16,13 +17,11 @@ const NewCoins = () => {
       {data?.slice(0, 20).map((item) => (
         <div className={classes.cardContainer} key={item.tokenAddress}>
           <a href={item.url}>
-            <div className={classes.iconContainer}>
-              <img className={classes.icon} src={item.icon} alt="icon" />
-
-              <p className={classes.description}>
-                {item.description?.slice(0, 75)}...
-              </p>
-            </div>
+            <img
+              className={classes.openGraph}
+              src={item.openGraph}
+              alt="icon"
+            />
           </a>
         </div>
       ))}

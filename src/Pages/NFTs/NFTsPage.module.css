@@ -4,19 +4,134 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-
-  background-image: linear-gradient(to bottom, #111111, #252525, #111111);
+  padding-top: 50px;
+  background-color: #242529;
 }
-.header {
-  color: white;
-  font-size: 30px;
-  font-weight: 900;
+.leftHeader {
+  width: 20%;
+  height: 400px;
+}
+.middleHeader {
+  width: 60%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nftHeaderContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100px;
+  height: 100%;
+}
+.nftHeaderImage {
+  width: 1000px;
+  height: 381.5px;
+  object-fit: fill;
+  border-radius: 20px;
+  border-color: #2b2a2a;
+  border-style: solid;
+  border-width: 1px;
+  transition: border-color 2s ease;
+}
+.nftHeaderImage:hover {
+  border-color: #ff0000;
+}
+
+.subHeader {
+  height: 200px;
+  width: 95%;
+  margin-top: -220px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.headerNormalImage {
+  max-width: 180px;
+  height: auto;
+  object-fit: contain;
+  border-color: rgb(97, 96, 96);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+.headerTitle {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.rightHeader {
+  width: 20%;
+  height: 400px;
+}
+
+.menuHeader {
+  height: 80px;
+}
+.marketSelector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+.bodyContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.leftMenuBar {
+  width: 220px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lato";
+  font-size: 14px;
+  background-color: #242529;
+  color: white;
+  border-right: 1px solid #686852;
+
+  text-align: center;
+}
+.marketBtn {
+  font-family: "Lato";
+  font-size: 12px;
+  width: 120px;
+  margin-bottom: 5px;
+}
+.marketLogo {
+  width: 20px;
+  height: 20px;
+}
+.selector {
+  display: flex;
+
+  align-items: center;
+}
+
+.nftSection {
+  width: 84%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.bodyHeader {
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
+  height: 50px;
 }
 .cardContainer {
   color: white;
@@ -26,45 +141,43 @@
   border-color: rgb(51, 50, 50);
   display: block;
   width: 280px;
-  height: 300px;
+  height: 340px;
   background-image: linear-gradient(to bottom, #222222, #444444, #111111);
   margin: 10px;
   border-radius: 20px;
   border-style: solid;
-  border-width: 3px;
   transition: transform 0.7s ease;
 }
 .cardContainer:hover {
-  border-color: rgb(178, 221, 236);
+  border-color: rgb(217, 238, 245);
   transform: scale(1.07);
   cursor: pointer;
 }
 
 .bannerImage {
-  width: 274px;
+  width: 280px;
+  min-height: 200px;
   max-height: 200px;
-  object-fit: fill;
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
 }
-.titleContainer {
-  width: 100%;
-  height: 40px;
-  padding-left: 20px;
+.cardtitle {
   display: flex;
+
   align-items: center;
-}
-.title {
+  width: 90%;
+  height: 50px;
   color: white;
   font-size: 18px;
   font-family: "Lato";
   font-weight: 900;
+  padding-left: 20px;
 }
 
 .subTitle {
+  height: 30px;
   color: gray;
   font-size: 14px;
-  margin-bottom: 7px;
 }
 
 .container {
@@ -86,7 +199,7 @@
 .text {
   width: 100%;
   display: flex;
-  color: lightblue;
-  font-size: 14px;
-  margin-right: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
 }

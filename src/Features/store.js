@@ -6,7 +6,9 @@ import { polygonApi } from "./polygonApi";
 import { cryptoNewsApi } from "./cryptoNewsApi";
 import { moralisApisol } from "./moralisApisol";
 import { dexScreenerApi } from "./dexScreenerApi";
-import { blockspanApi } from "./blockSpanApi";
+import { blockSpanApi } from "./blockSpanApi";
+import { openSeaApi } from "./openSeaApi";
+import { magicEdenApi } from "./magicEdenApi";
 
 export const store = configureStore({
   reducer: {
@@ -16,7 +18,9 @@ export const store = configureStore({
     [cryptoNewsApi.reducerPath]: cryptoNewsApi.reducer,
     [moralisApisol.reducerPath]: moralisApisol.reducer,
     [dexScreenerApi.reducerPath]: dexScreenerApi.reducer,
-    [blockspanApi.reducerPath]: blockspanApi.reducer,
+    [blockSpanApi.reducerPath]: blockSpanApi.reducer,
+    [openSeaApi.reducerPath]: openSeaApi.reducer,
+    [magicEdenApi.reducerPath]: magicEdenApi.reducer,
   },
   // Adding the api middleware enables caching, invalidation, polling,
   // and other useful features of `rtk-query`.
@@ -27,7 +31,9 @@ export const store = configureStore({
       cryptoNewsApi.middleware,
       moralisApisol.middleware,
       dexScreenerApi.middleware,
-      blockspanApi.middleware
+      blockSpanApi.middleware,
+      openSeaApi.middleware,
+      magicEdenApi.middleware
     ),
 });
 
