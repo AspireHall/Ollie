@@ -1,5 +1,5 @@
 import { useGetOpenSeaByCreationDateQuery } from "../../Features/openSeaApi";
-import NftPlaceHolder from "../../assets/NftBanner.png";
+import NftPlaceHolder from "../../Assets/NftBanner.png";
 import classes from "./NFTsPage.module.css";
 
 const NFTsByCreationDate = () => {

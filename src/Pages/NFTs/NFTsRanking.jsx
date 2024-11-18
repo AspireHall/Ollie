@@ -1,7 +1,6 @@
 import { useGetOpenSeaRankingsQuery } from "../../Features/blockSpanApi";
 import classes from "./NFTsPage.module.css";
-import bannerImage from "../../assets/NftBanner.png";
-import { number } from "prop-types";
+import bannerImage from "../../Assets/NftBanner.png";
 
 const NFTsRanking = () => {
   const { data, error, isLoading } = useGetOpenSeaRankingsQuery();
