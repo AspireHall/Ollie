@@ -18,7 +18,7 @@ const NFTsRanking = () => {
     if (isNaN(number)) {
       return "Invalid number";
     }
-    // If the number is 1000 or more, divide by 1000 and add "K".
+    // If the number is 1000 or more, divide by 1000 and add "K"..
     if (number >= 1000) {
       const numberInK = (number / 1000).toFixed(1); // Convert to "K" format with one decimal
       return `${parseFloat(numberInK).toLocaleString()}K`; // Add thousands separator
