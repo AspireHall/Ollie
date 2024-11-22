@@ -22,11 +22,12 @@ const HowToBuy = () => {
             <div className={classes.title}>What is Ollie Coin?</div>
 
             <p className={classes.text}>
-              Ollie coin has not intrinsic value or expectation of financial
-              return. This is a solo developer project and there is not formal
-              team or roadmap. Ollie coin is completely useless and for
-              entertainment purposes only. Ollie coin will have utility for this
-              platform, as the the project grows.
+              Ollie coin is the official coin of the Ollie Analytical Platform.
+              This project is still under development. The value of the coin is
+              speculative and does not carry any intrinsic value. Ollie coin
+              will have utility for this platform, as the the project grows.
+              Follow us at https://x.com/ollie_memecoin to stay up to date on
+              the latest news.
             </p>
           </div>
         </div>
