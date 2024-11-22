@@ -1,4 +1,5 @@
 .mainContainer {
+  height: 35px;
   background-color: black;
   display: flex;
   flex-wrap: wrap;

@@ -6,9 +6,14 @@ import NewCoins from "./NewCoins/NewCoins";
 import Web3Games from "./Web3Games/Web3Games";
 import Cex from "./CEX/Cex";
 import Dex from "../Dex/Dex";
+import bitcoinLogo from "../../../Assets/bitcoinLogo.png";
+import { useGetAllCoinPriceQuery } from "../../../Features/coinGeckoApi";
+
 import Chart from "../../../Chart/Chart";
 
 const BodySection = () => {
+  const { data, error, isLoading } = useGetAllCoinPriceQuery();
+
   const [menuLinkSelected, setMenuLinkSelected] = useState(<BodyCryptoNews />);
 
   const cryptoNewsHandler = () => {
@@ -28,9 +33,26 @@ const BodySection = () => {
     setMenuLinkSelected(<NewCoins />);
   };
 
+  if (isLoading) {
+    return <div>Loading</div>;
+  }
+  if (error) {
+    return <div>Error on Page</div>;
+  }
+
+  console.log(data);
   return (
     <div className={classes.mainContainer}>
-      <div className={classes.leftContainer}></div>
+      <div className={classes.leftContainer}>
+        {data?.map((item) => (
+          <div className={classes.coinCard} key={item.id}>
+            <img className={classes.coinLogo} src={item.image} alt="token" />
+            <div className={classes.coinPrice}>
+              {item.current_price.toLocaleString("en-US")}
+            </div>
+          </div>
+        ))}
+      </div>
       <div className={classes.middleContainer}>
         <BodyNavbar
           cryptoNewsHandler={cryptoNewsHandler}

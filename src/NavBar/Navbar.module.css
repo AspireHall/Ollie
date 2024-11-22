@@ -1,5 +1,5 @@
 .mainContainer {
-  height: 100px;
+  height: 60px;
   background-color: black;
 
   padding-left: 5%;
@@ -49,7 +49,7 @@
 }
 
 .logo2 {
-  max-height: 50px;
+  max-height: 35px;
   width: auto;
 }
 
@@ -103,8 +103,8 @@
   display: flex;
   gap: 10px;
   justify-content: center;
-  padding: 18px 32px;
+  padding: 9px 15px;
   position: relative;
   height: 30px;
-  width: 187px;
+  width: 157px;
 }

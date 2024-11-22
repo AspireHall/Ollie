@@ -8,10 +8,38 @@
 .leftContainer {
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 20%;
   height: 100%;
   background-image: linear-gradient(to bottom, #050505, #222222, #050505);
+}
+
+.coinCard {
+  height: 70px;
+  width: 330px;
+  border-radius: 20px;
+  border: 1px solid gainsboro;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.coinLogo {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.coinGraph {
+  color: white;
+}
+.coinPrice {
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  margin-left: 80px;
 }
 
 .middleContainer {
