@@ -47,8 +47,9 @@ const BodySection = () => {
         {data?.map((item) => (
           <div className={classes.coinCard} key={item.id}>
             <img className={classes.coinLogo} src={item.image} alt="token" />
+            <div className={classes.coinName}>{item.name}</div>
             <div className={classes.coinPrice}>
-              {item.current_price.toLocaleString("en-US")}
+              ${item.current_price.toLocaleString("en-US")}
             </div>
           </div>
         ))}

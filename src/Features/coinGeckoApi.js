@@ -13,7 +13,7 @@ export const coinGeckoApi = createApi({
       query: () => "/api/v3/simple/price?ids=ethereum&vs_currencies=usd",
     }),
     getAllCoinPrice: builder.query({
-      query: () => "/api/v3/coins/markets?vs_currency=usd&per_page=10",
+      query: () => "/api/v3/coins/markets?vs_currency=usd&per_page=15",
     }),
   }),
 });
