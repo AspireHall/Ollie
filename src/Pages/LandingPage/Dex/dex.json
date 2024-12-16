@@ -133,7 +133,7 @@
     "chain": "Ethereum",
     "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPv6BesGJmkPFRr5od6TEKd8NPsBur1bdyFmTV1t7WpzN",
     "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmXb8N7eqnndKokBtyZw1oN7B3wVKjSDGPcc8qDxanVCVZ",
-    "url": "https://www.propellerheads.xyz/"
+    "url": "https://kyberswap.com/swap/ethereum"
   },
   {
     "id": "16",
@@ -155,12 +155,12 @@
   },
   {
     "id": "18",
-    "name": "Aldrin",
-    "description": "Aldrin is a Solana-based DEX facilitating token swaps through an AMM and spot and futures trading. ",
+    "name": "Pancake Swap",
+    "description": "Everyone's Favorite DEX Trade, earn, and own crypto on the all-in-one multichain DEX",
     "chain": "Solana",
-    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVyg6muAp34aGWPFYrVHuY6LewMhBEx2YeQgLPqMAZnMu",
-    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmWdH6SsjujysoSpkQcefqDMivzfGNzyMPiegM5YQacBpe",
-    "url": "https://aldrin.com/"
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmWDndZHnPBSb57YaToAQD3GJUB64TJ4J9isLCG8v2ecUr",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPQ4h7YxQQS8of4QX2KWJzcRjhh7hAUwqs2ksDcvr1fHZ",
+    "url": "https://pancakeswap.finance/home"
   },
   {
     "id": "19",
@@ -269,14 +269,5 @@
     "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPWmJJZWbMpdJpDiaDq2AbBunrQfZ1zB34eFDTG2Sad6n",
     "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmRPeAYHs1zj5NwXKSFHim6DYPqU1q1JmUTpfxTVAnuzuw",
     "url": "https://lfj.gg/avalanche"
-  },
-  {
-    "id": "29",
-    "name": "Pancake Swap",
-    "description": "Everyone's Favorite DEX Trade, earn, and own crypto on the all-in-one multichain DEX",
-    "chain": "Solana",
-    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmWDndZHnPBSb57YaToAQD3GJUB64TJ4J9isLCG8v2ecUr",
-    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPQ4h7YxQQS8of4QX2KWJzcRjhh7hAUwqs2ksDcvr1fHZ",
-    "url": "https://pancakeswap.finance/home"
   }
 ]
