@@ -1,0 +1,81 @@
+.mainContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #242529;
+}
+
+.subContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.titleContainer {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 275px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: linear-gradient(to bottom, #111111, #222222, #111111);
+  border: solid 1px lightblue;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background: black;
+  cursor: pointer;
+  border: solid 1px red;
+  z-index: 1;
+  scale: 1.06;
+}
+
+.cardTitle {
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  font-family: "Lato";
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  font-weight: 900;
+  margin-right: 10px;
+}
+.cardSubTitle {
+  font-family: "Lato";
+  font-size: clamp(0.6rem, 2vw, 0.8rem);
+}
+.gameLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 70px;
+  height: auto;
+  font-size: 10px;
+}
+
+.note {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: "Lato";
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
+}

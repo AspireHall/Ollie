@@ -1,0 +1,282 @@
+[
+  {
+    "id": "1",
+    "name": "Raydium",
+    "description": "Raydium is a DEX offering fast swapping of Solana tokens and a central order book for limit orders. ",
+    "chain": "Solana",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVyg6muAp34aGWPFYrVHuY6LewMhBEx2YeQgLPqMAZnMu",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmXirHz6y2dq8nYdWm8v9dTaKizTjQAcNJL2tCF1PJhxEm",
+    "url": "https://raydium.io/swap/?inputMint=sol&outputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+  },
+  {
+    "id": "2",
+    "name": "Ox",
+    "description": "0x provides flexible smart contracts to build decentralized exchanges and trading protocols.",
+    "chain": "Ethereum",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPv6BesGJmkPFRr5od6TEKd8NPsBur1bdyFmTV1t7WpzN",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/Qmb8X4qQVHePDUpfkJU6bh5GbwieviRAcYdrVCnqDts9Zm",
+    "url": "https://0x.org/"
+  },
+  {
+    "id": "3",
+    "name": "Jupiter",
+    "description": "The #1 decentralized exchange on Solana. ",
+    "chain": "Solana",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVyg6muAp34aGWPFYrVHuY6LewMhBEx2YeQgLPqMAZnMu",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/Qmaq9JJeSWbgxyP4qoGf7pRZ3hLJZQbJZmxBuxkyaMkjup",
+    "url": "https://jup.ag/"
+  },
+  {
+    "id": "4",
+    "name": "Slingshot",
+    "description": "A popular Ethereum-based swapping protocol with 0% fees.",
+    "chain": "Multichain",
+    "chainLogo": "",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmaymuQX5MgvV9jC5rKMKhfSVrrrHi2TL4NYU7ko4759Af",
+    "url": "https://slingshot.finance/"
+  },
+  {
+    "id": "5",
+    "name": "Uniswap",
+    "description": "Uniswap is the first Ethereum-based DEX enabling the swapping of ERC-20 tokens via liquidity pools. ",
+    "chain": "Multichain",
+    "chainLogo": "",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmexdZ5wpsAeDcFoBHajMshg9KVzyjaEa3sWHPf1taJan7",
+    "url": "https://app.uniswap.org/"
+  },
+  {
+    "id": "6",
+    "name": "CowSwap",
+    "description": "Cowswap is a DEX facilitating trade of Ethereum-based tokens by matching supply with demand. ",
+    "chain": "Ethereum",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPv6BesGJmkPFRr5od6TEKd8NPsBur1bdyFmTV1t7WpzN",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmdtYRxaxEaRV3RfLCvcLz7JPWttVFNAxXztDdt1WKCX1T",
+    "url": "https://swap.cow.fi/#/1/swap/WETH"
+  },
+  {
+    "id": "7",
+    "name": "1inch",
+    "description": "1inch is a DEX aggregator powering flexible swaps and trades through their native protocol. ",
+    "chain": "Multichain",
+    "chainLogo": "",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmNqu17KGGK1q1aZ9ZGTnudcvYSjUscTAKWSuWUvwnVtfe",
+    "url": "https://1inch.io/"
+  },
+  {
+    "id": "8",
+    "name": "Velodrome",
+    "description": "A DeFi protocol on Optimism.  ",
+    "chain": "Optimism",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmSAe6qfHfdujo93aK8EXfq8GnDdH56b4wzqCGSAMpWUzB",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmdksCEaLMKLN8qub3kLpK5JMAZfCXhvtm9DdqaEjLNRSq",
+    "url": "https://velodrome.finance/?"
+  },
+  {
+    "id": "9",
+    "name": "Matcha",
+    "description": "Matcha is a DEX aggregator offering swaps and limit orders for 6+ million tokens across 9 networks.   ",
+    "chain": "Optimism",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmSAe6qfHfdujo93aK8EXfq8GnDdH56b4wzqCGSAMpWUzB",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmcJkm8nScbxrQ1Yb7Jfu8GCmoKNMRATcjC3cLu1FB92eB",
+    "url": "https://matcha.xyz/"
+  },
+  {
+    "id": "10",
+    "name": "Orca",
+    "description": "Orca is a DEX deployed on Solana offering SPL token trading and incentivized token pools.   ",
+    "chain": "Solana",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVyg6muAp34aGWPFYrVHuY6LewMhBEx2YeQgLPqMAZnMu",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmQLaDwQxsMLiasFUAM7Eb7ZPCDuHTbguAb36H6RtPBqvp",
+    "url": "https://www.orca.so/"
+  },
+  {
+    "id": "11",
+    "name": "Kamino Finance",
+    "description": "Automates and optimizes concentrated liquidity management for DEX market makers on Solana.",
+    "chain": "Solana",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVyg6muAp34aGWPFYrVHuY6LewMhBEx2YeQgLPqMAZnMu",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVMHbVxSvsnfRap17NKmcCstYsWbovmyPn8nwaAx3ceDh",
+    "url": "https://app.kamino.finance/"
+  },
+
+  {
+    "id": "12",
+    "name": "Yield Yak",
+    "description": "Yield Yak provides auto-compounding yield farms, (DEX) aggregator, and liquid staking tools. ",
+    "chain": "Avalanche",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPWmJJZWbMpdJpDiaDq2AbBunrQfZ1zB34eFDTG2Sad6n",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmfTwhsqDs6aZpCsvdP6isxSAncC54mUfn4bHCYR6AF9DZ",
+    "url": "https://yieldyak.com/avalanche/"
+  },
+  {
+    "id": "13",
+    "name": "Carbon",
+    "description": "Onchain trading protocol for limit and range orders, w. auto-rotating, one-directional liquidity. ",
+    "chain": "Ethereum",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPv6BesGJmkPFRr5od6TEKd8NPsBur1bdyFmTV1t7WpzN",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmV9VB4AhRqagkNzeFsPK13TsCwSBJsT1vSJNxwHrWGGrs",
+    "url": "https://www.carbondefi.xyz/"
+  },
+  {
+    "id": "14",
+    "name": "Propeller Swap",
+    "description": "Building solvers for users and dApps to execute their trades at the best price possible. ",
+    "chain": "Multichain",
+    "chainLogo": "",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/Qmf9kCZJMzQue3btXsUdPvDz2CBNJzeNcdHB3u2nyWFs44",
+    "url": "https://www.propellerheads.xyz/"
+  },
+  {
+    "id": "15",
+    "name": "Kyber Swap",
+    "description": "Kyberswap is a DEX that aggregates liquidity from multiple DEXes to provide fast transactions. ",
+    "chain": "Ethereum",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPv6BesGJmkPFRr5od6TEKd8NPsBur1bdyFmTV1t7WpzN",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmXb8N7eqnndKokBtyZw1oN7B3wVKjSDGPcc8qDxanVCVZ",
+    "url": "https://www.propellerheads.xyz/"
+  },
+  {
+    "id": "16",
+    "name": "Paraswap",
+    "description": "Paraswap is a DeFi aggregator combining liquidity across multiple chains for seamless trading. ",
+    "chain": "Ethereum",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPv6BesGJmkPFRr5od6TEKd8NPsBur1bdyFmTV1t7WpzN",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmaHcrSTNG4Vz2yqTjaCENq1HC63d1TmvWuFW1Q4seLH2G",
+    "url": "https://www.paraswap.xyz/"
+  },
+  {
+    "id": "17",
+    "name": "Curve Finance",
+    "description": "Curve Finance is a DEX allowing efficient trading of stablecoins with low slippage. ",
+    "chain": "Ethereum",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPv6BesGJmkPFRr5od6TEKd8NPsBur1bdyFmTV1t7WpzN",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVyMcvp8raN6cNXupKxfRgz9gnGsGRBH2KBHkPBikLkh4",
+    "url": "https://curve.fi"
+  },
+  {
+    "id": "18",
+    "name": "Aldrin",
+    "description": "Aldrin is a Solana-based DEX facilitating token swaps through an AMM and spot and futures trading. ",
+    "chain": "Solana",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVyg6muAp34aGWPFYrVHuY6LewMhBEx2YeQgLPqMAZnMu",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmWdH6SsjujysoSpkQcefqDMivzfGNzyMPiegM5YQacBpe",
+    "url": "https://aldrin.com/"
+  },
+  {
+    "id": "19",
+    "name": "Bancor",
+    "description": "Bancor is a staking platform and automated market maker on the Ethereum and EOS blockchain. ",
+    "chain": "Ethereum",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPv6BesGJmkPFRr5od6TEKd8NPsBur1bdyFmTV1t7WpzN",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmSszMgW5SawnxCSKDVcLztSGPrNCt9C2JrriN2w6iM6F3",
+    "url": "https://bancor.network/"
+  },
+  {
+    "id": "20",
+    "name": "Saber",
+    "description": "A high liquidity AMM, Saber facilitates the swapping of stablecoins and pegged assets on Solana. ",
+    "chain": "Solana",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVyg6muAp34aGWPFYrVHuY6LewMhBEx2YeQgLPqMAZnMu",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmeBbjkbzSuxQ2k33HD5MUN57AugGWgJb7MhDWbJWRpnbw",
+    "url": "https://saberdao.io/"
+  },
+  {
+    "id": "21",
+    "name": "Loopring",
+    "description": "Loopring is a zkRollup-powered Layer-2 facilitating non-custodial exchange and payment protocols. ",
+    "chain": "Ethereum",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPv6BesGJmkPFRr5od6TEKd8NPsBur1bdyFmTV1t7WpzN",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/Qmdg98o7UnCefmNeFzpL2gaj5TteJoaoRrv2XUco45Mujp",
+    "url": "https://loopring.io"
+  },
+  {
+    "id": "22",
+    "name": "AirSwap",
+    "description": "Airswap is a decentralized exchange that focuses on peer-to-peer trading with zero slippage. ",
+    "chain": "Ethereum",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPv6BesGJmkPFRr5od6TEKd8NPsBur1bdyFmTV1t7WpzN",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmeRQvV8ajSnPkVvq81hWt2XiafAiNTqqvWc1e3saBEKcm",
+    "url": "https://www.airswap.xyz/#/"
+  },
+  {
+    "id": "23",
+    "name": "RhinoFi",
+    "description": "RhinoFi is a decentralized exchange that facilitates fast multichain token swaps. ",
+    "chain": "Ethereum",
+    "chainLogo": "",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmSyPXXUd8xSrCXkb3uE7rnF3t3vKxkLAQqCr3r7uVDNoY",
+    "url": "https://rhino.fi/"
+  },
+  {
+    "id": "24",
+    "name": "Balancer",
+    "description": "RhinoFi is a decentralized exchange that facilitates fast multiBalancer is a popular automated portfolio manager and decentralized trading platform for Ethereum.",
+    "chain": "Ethereum",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPv6BesGJmkPFRr5od6TEKd8NPsBur1bdyFmTV1t7WpzN",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmNWikEL8ey7n597wBh7ADdmwiHcQSbnCgKNx2AdnuBALZ",
+    "url": "https://balancer.fi/"
+  },
+  {
+    "id": "25",
+    "name": "Dexlab",
+    "description": "Built on Solana, Dexlab is a DeFi platform with token swaps, minting tools and a launchpad. ",
+    "chain": "Solana",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVyg6muAp34aGWPFYrVHuY6LewMhBEx2YeQgLPqMAZnMu",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmQpGkofiF8XJik1dfhFZXMhVYtwm8dtZkF7GQRpBJFosM",
+    "url": "https://www.dexlab.space/mintinglab/spl-token"
+  },
+  {
+    "id": "26",
+    "name": "Cropper Finance",
+    "description": "One of the leading yield farming protocols on Solana. ",
+    "chain": "Solana",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVyg6muAp34aGWPFYrVHuY6LewMhBEx2YeQgLPqMAZnMu",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmZBqf9zQJnEJGo7Unbj339qupNDRKq9uHQ6KePtuSR6pB",
+    "url": "https://app.cropper.finance/liquidity"
+  },
+  {
+    "id": "27",
+    "name": "Sushi",
+    "description": "Leading multichain decentralized exchange for swapping cryptocurrency tokens.",
+    "chain": "Multichain",
+    "chainLogo": "",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmcLRt1MnkBXf7kprdB8AWRmNoK1kedFNs6328wsKQqYh1",
+    "url": "https://www.sushi.com/ethereum/swap"
+  },
+  {
+    "id": "28",
+    "name": "QuickSwap",
+    "description": "Quickswap is the largest DEX on the Polygon network and includes a wide range of features. ",
+    "chain": "Polygon",
+    "chainLogo": "",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmXz8EWGkzqJR27YsnBXf4pGfqjSz3hEFJDako9oX9YASs",
+    "url": "https://quickswap.exchange/#/"
+  },
+  {
+    "id": "29",
+    "name": "Soldex",
+    "description": "A Solana-native decentralized exchange. ",
+    "chain": "Solana",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVyg6muAp34aGWPFYrVHuY6LewMhBEx2YeQgLPqMAZnMu",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmP7vqskeKvnSp7JyfsoZu5YQ48Gnn9nyn1PMqK8jedYmA",
+    "url": "https://soldex.ai/"
+  },
+  {
+    "id": "29",
+    "name": "LFJ",
+    "description": "Avax Dex, Winners Trade Here.",
+    "chain": "Solana",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPWmJJZWbMpdJpDiaDq2AbBunrQfZ1zB34eFDTG2Sad6n",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmRPeAYHs1zj5NwXKSFHim6DYPqU1q1JmUTpfxTVAnuzuw",
+    "url": "https://lfj.gg/avalanche"
+  },
+  {
+    "id": "29",
+    "name": "Pancake Swap",
+    "description": "Everyone's Favorite DEX Trade, earn, and own crypto on the all-in-one multichain DEX",
+    "chain": "Solana",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmWDndZHnPBSb57YaToAQD3GJUB64TJ4J9isLCG8v2ecUr",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPQ4h7YxQQS8of4QX2KWJzcRjhh7hAUwqs2ksDcvr1fHZ",
+    "url": "https://pancakeswap.finance/home"
+  }
+]

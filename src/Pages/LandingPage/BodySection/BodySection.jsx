@@ -63,10 +63,6 @@ const BodySection = () => {
           newCoinsHandler={newCoinsHandler}
         />
         <div>{menuLinkSelected}</div>
-
-        <div className={classes.chartContainer}>
-          <Chart />
-        </div>
       </div>
       <div className={classes.rightContainer}>
         <iframe
