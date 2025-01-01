@@ -12,15 +12,20 @@ const BodyNavbar = (props) => {
         <Link className={classes.link} onClick={props.web3GamesHandler}>
           Web3Games
         </Link>
+        <Link className={classes.link} onClick={props.nftMarketHandler}>
+          NFT Markets
+        </Link>
         <Link className={classes.link} onClick={props.dexHandler}>
           DEX
         </Link>
         <Link className={classes.link} onClick={props.cexHandler}>
           CEX
         </Link>
-
         <Link className={classes.link} onClick={props.newCoinsHandler}>
           New Coin/Pools
+        </Link>
+        <Link className={classes.link} onClick={props.arbitrationHandler}>
+          Arbitration
         </Link>
       </div>
     </div>

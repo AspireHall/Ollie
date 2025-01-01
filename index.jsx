@@ -6,6 +6,7 @@ import { OllieLandingPage } from "./src/index";
 import AboutPage from "./src/Pages/About/AboutPage";
 import NewsPage from "./src/Pages/NewsPage/NewsPage";
 import NFTsPage from "./src/Pages/NFTs/NFTsPage";
+import ContactPage from "./src/Pages/ContactPage/ContactPage";
 import PriceChart from "./src/Pages/PriceChart/PriceChart";
 import { Provider } from "react-redux";
 
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
       {
         path: "/PriceChart",
         element: <PriceChart />,
+      },
+      {
+        path: "/ContactUs",
+        element: <ContactPage />,
       },
     ],
   },

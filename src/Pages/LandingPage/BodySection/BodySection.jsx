@@ -4,6 +4,8 @@ import BodyNavbar from "./BodyNavbar";
 import BodyCryptoNews from "./BodyCryptoNews/BodyCryptoNews";
 import NewCoins from "./NewCoins/NewCoins";
 import Web3Games from "./Web3Games/Web3Games";
+import NFTMarketplace from "./NFT MarketPlace/NFTMarketplace";
+import Arbitration from "./Arbitration/Arbitration";
 import Cex from "./CEX/Cex";
 import Dex from "../Dex/Dex";
 import bitcoinLogo from "../../../Assets/bitcoinLogo.png";
@@ -31,6 +33,12 @@ const BodySection = () => {
 
   const newCoinsHandler = () => {
     setMenuLinkSelected(<NewCoins />);
+  };
+  const nftMarketHandler = () => {
+    setMenuLinkSelected(<NFTMarketplace />);
+  };
+  const arbitrationHandler = () => {
+    setMenuLinkSelected(<Arbitration />);
   };
 
   if (isLoading) {
@@ -61,6 +69,8 @@ const BodySection = () => {
           dexHandler={dexHandler}
           cexHandler={cexHandler}
           newCoinsHandler={newCoinsHandler}
+          nftMarketHandler={nftMarketHandler}
+          arbitrationHandler={arbitrationHandler}
         />
         <div>{menuLinkSelected}</div>
       </div>
