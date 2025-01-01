@@ -25,9 +25,7 @@ const Navbar = () => {
           <Link className={classes.menuText} to="/">
             Services
           </Link>
-          <Link className={classes.menuText} to="/">
-            Price Ticks
-          </Link>
+
           <Link className={classes.menuText} to="/">
             Games
           </Link>
@@ -38,7 +36,7 @@ const Navbar = () => {
             About
           </Link>
           <Link className={classes.menuText} to="/PriceChart">
-            Price PriceChart
+            PriceChart
           </Link>
         </div>
         <div className={classes.rightContainer}>
