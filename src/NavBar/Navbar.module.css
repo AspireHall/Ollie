@@ -110,7 +110,7 @@
 }
 
 .contactUs {
-  width: 150px;
+  width: 160px;
   height: 30px;
   display: flex;
   justify-content: center;
@@ -120,6 +120,6 @@
   color: #ffffff;
   border: solid 1px gray;
   font-family: "Familjen Grotesk", Helvetica;
-  font-size: 20px;
+  font-size: clamp(0.6rem, 1.5vw, 1.1rem);
   font-weight: 600;
 }

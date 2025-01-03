@@ -6,7 +6,12 @@
   justify-content: center;
   align-items: center;
 }
-
+.subContainer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .leftContainer {
   width: 15%;
 }
@@ -53,8 +58,9 @@
 }
 
 .text {
-  font-size: 18px;
+  font-size: clamp(1rem, 2vw, 1.5rem);
   color: white;
+  line-height: 30px;
   word-break: break-word;
 }
 @media only screen and (max-width: 600px) {

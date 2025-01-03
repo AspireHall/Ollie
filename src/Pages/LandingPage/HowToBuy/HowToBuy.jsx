@@ -5,34 +5,22 @@ import coins from "../../../Assets/olliecoins.png";
 const HowToBuy = () => {
   return (
     <div className={classes.mainContainer}>
-      <div className={classes.leftContainer} />
-      <div className={classes.middleContainer}>
-        <div className={classes.middleLeft}>
-          <img className={classes.image} alt="Image" src={coins} />
-        </div>
-        <div className={classes.middleRight}>
-          <p className={classes.title}>Contract Address: </p>
+      <div className={classes.subContainer}>
+        <div className="frame-15">
+          <div className={classes.title}>Ollie Analytical Platform</div>
           <p className={classes.text}>
-            9T6X98LaLfeCmyZnMuCeaXX7Fh9P6t7Hi6izSruGm1qi
+            Crypto Analytical and informational platform. A place to discover
+            new and existing blockchains, coins, nfts, crypto news, games,
+            centralize exchanges, decentralize exchanges and much more. Our aim
+            is to be the one stop shop for all your crypto informational needs.
+            We are constantly adding new features and services to our platform
+            that will enhance your crypto experience. If there is a feature you
+            would like for us to add to our platform, please let us know. Kindly
+            contact us your request and we will get back to you as soon as
+            possible.
           </p>
-          <br></br>
-          <br />
-
-          <div className="frame-15">
-            <div className={classes.title}>What is Ollie Coin?</div>
-
-            <p className={classes.text}>
-              Ollie coin is the official coin of the Ollie Analytical Platform.
-              This project is still under development. The value of the coin is
-              speculative and does not carry any intrinsic value. Ollie coin
-              will have utility for this platform, as the the project grows.
-              Follow us at https://x.com/ollie_memecoin to stay up to date on
-              the latest news.
-            </p>
-          </div>
         </div>
       </div>
-      <div className={classes.rightContainer} />
     </div>
   );
 };

@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link className={classes.menuText} to="/">
             Home
           </Link>
-          <Link className={classes.menuText} to="/">
+          {/*<Link className={classes.menuText} to="/">
             News
           </Link>
           <Link className={classes.menuText} to="/">
@@ -34,7 +34,7 @@ const Navbar = () => {
           </Link>
           <Link className={classes.menuText} to="/">
             About
-          </Link>
+          </Link> */}
           <Link className={classes.menuText} to="/PriceChart">
             PriceChart
           </Link>

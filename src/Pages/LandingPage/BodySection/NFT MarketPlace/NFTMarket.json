@@ -1,0 +1,149 @@
+[
+  {
+    "id": "1",
+    "name": "Opensea",
+    "description": "OpenSea is the most popular and widely used NFT marketplace. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmceRcduLXQmffeHnKi6A2NmNA3vX3c7gQhSBR9bVrYLXw",
+    "url": "https://opensea.io/"
+  },
+  {
+    "id": "2",
+    "name": "Magic Eden",
+    "description": "Magic Eden is a NFT marketplace on Solana. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/Qmcv42BqiLdP8maMgaE1DhPB2TiWhkuA3LQWTurt61ywsT",
+    "url": "https://magiceden.io/"
+  },
+  {
+    "id": "3",
+    "name": "Nifty Gateway",
+    "description": "Nifty Gateway is an NFT marketplace. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmavmkKv2iMS7ZbZ8o4zdSS1syzAKHnu7hUfVQYuBg6HVk",
+    "url": "https://www.niftygateway.com/"
+  },
+  {
+    "id": "4",
+    "name": "Rarible",
+    "description": "Rarible is an NFT platform. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmT9hs4jfgGj5drA492AYMcdWmWbba4XvdLdGbzDwyk9Et",
+    "url": "https://rarible.com/"
+  },
+  {
+    "id": "4",
+    "name": "Looks Rare",
+    "description": "LooksRare is an Ethereum-based NFT marketplace. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmVMBxjK28tMWhwcanDeU9SW8X6BQYQyeBta1JrQAcNwnp",
+    "url": "https://looksrare.org/"
+  },
+  {
+    "id": "5",
+    "name": "Fractal",
+    "description": "Fractal is an open marketplace for gaming NFTs. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmYPFB18u78NXxVZCGXGEYGGKV36org1FvzX6YoqzrVbej",
+    "url": "https://www.fractal.is/"
+  },
+  {
+    "id": "6",
+    "name": "X2Y2",
+    "description": "X2Y2.io is an NFT marketplace. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmceRcduLXQmffeHnKi6A2NmNA3vX3c7gQhSBR9bVrYLXw",
+    "url": "https://x2y2.io/"
+  },
+  {
+    "id": "7",
+    "name": "Exchange Art",
+    "description": "Collect, Create & Sell a Piece of History ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmU7R2KKrMnR6WiNkcHypdJt7LbQRXrXGyAKbsz5CJRUfV",
+    "url": "https://exchange.art/"
+  },
+  {
+    "id": "8",
+    "name": "Tensor",
+    "description": "Tensor is the fastest NFT trading platform on Solana. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmcKGAdiC3E9pc84pbgWXdHQVouiEbbLw5UNNDESo23CTg",
+    "url": "https://www.tensor.trade/"
+  },
+  {
+    "id": "9",
+    "name": "GME",
+    "description": "GameStop is a gaming-focused decentralized marketplace on the Ethereum blockchain. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmWZJZ5at8pD462acpqFqifHfGcMaULRE8d2J29rkkZGFi",
+    "url": "https://nft.gamestop.com/"
+  },
+  {
+    "id": "10",
+    "name": "OverHyped",
+    "description": "OverHyped.io is an NFT marketplace that sells tech-enabled clothing with authenticity verification.  ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmdR8FJwtuKEw2tAUY4Xr6xRZe5Y2ypstn77Y1ruvjXoCD",
+    "url": "https://overhyped.io/"
+  },
+  {
+    "id": "11",
+    "name": "Trader.xyz",
+    "description": "Trader is an NFT trading platform.  ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmQZqBhMRJarviTkqZyjBJWdVoEkzzcqwL5aQCcGA2UNf7",
+    "url": "https://trader.xyz/"
+  },
+  {
+    "id": "12",
+    "name": "Castle",
+    "description": "From secure wallets to seamless trading, grow your portfolio with ease.",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmcVPy8PP6cArrEHMieMuTkSCe3iLNnhkXWknasgWfxwXJ",
+    "url": "https://castle.link/"
+  },
+  {
+    "id": "13",
+    "name": "Foundation",
+    "description": "Foundation marketplace is an NFT listing platform built on the Ethereum blockchain. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmdivL166TeWBF9nTWhbDPVDjBJoF6BnBTiwjHHRSgxhFW",
+    "url": "https://foundation.app/"
+  },
+  {
+    "id": "14",
+    "name": "Sudoswap",
+    "description": "Sudoswap is a decentralized NFT marketplace. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmZstaFH74pAaCDVtRaAvYRjeiHAGYBnerJqRNAvo2dSSc",
+    "url": "https://sudoswap.xyz/#/"
+  },
+  {
+    "id": "15",
+    "name": "Rally",
+    "description": "Rally is a iOS and Android mobile app that helps users access the NFT ecosystem easily. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmcTanHnaCu7CNpcXY2UDmRz33kc6TCk6DNXTybZdRRmg5",
+    "url": "https://rally.xyz/"
+  },
+  {
+    "id": "16",
+    "name": "Solsea",
+    "description": "SolSea is an open NFT marketplace on Solana. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmYYCxQxFZqafFRV9bR8fzoG6naH37zJHTS64NyjgZHh5j",
+    "url": "https://solsea.io/"
+  },
+  {
+    "id": "17",
+    "name": "Blur",
+    "description": "Blur is an NFT marketplace for traders. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmUeHJVWC2DBVxAyJ8Zh7CSyUDZWY1XXfdbVvAjk5CdttN",
+    "url": "https://blur.io/"
+  },
+  {
+    "id": "18",
+    "name": "MakersPlace ",
+    "description": "MakersPlace is an NFT marketplace. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmYLfTw6EYyV5kXMBvFgC9KBb6AcM8uDaR4H5HCHW4f3SF",
+    "url": "https://makersplace.com/"
+  },
+  {
+    "id": "19",
+    "name": "SuperRare",
+    "description": "SuperRare is a marketplace to collect and trade unique, single-edition digital artworks. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmavsCczPNpT4S2PNJ8saoTvxREk3StTh9DhZmFKj9DvrH",
+    "url": "https://superrare.com/"
+  },
+  {
+    "id": "20",
+    "name": "Tiexo",
+    "description": "Tiexo is an all in one NFT marketplace and data aggregator. ",
+    "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmPiY2y5BgTRPmbax2FKzeQc6EHRb5Adx2pYifc9FW3ffu",
+    "url": "https://tiexo.com/"
+  }
+]
