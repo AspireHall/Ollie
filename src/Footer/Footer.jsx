@@ -17,8 +17,7 @@ const Footer = () => {
         </div>
         <div className={classes.rightcontainer}>
           <p className={classes.text}>
-            All Right Reserved&nbsp;&nbsp;Ollie Coin&nbsp;&nbsp; Privacy Policy
-            2024
+            All Right Reserved&nbsp;&nbsp;Ollie&nbsp;&nbsp;2025
           </p>
         </div>
       </div>

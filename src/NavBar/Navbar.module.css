@@ -29,19 +29,10 @@
 }
 
 .rightContainer {
-  width: 30%;
+  width: 345px;
   display: flex;
   justify-content: end;
   align-items: center;
-}
-
-@media only screen and (max-width: 600px) {
-  .rightContainer {
-    width: 60%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-  }
 }
 
 .logo {
@@ -110,8 +101,8 @@
 }
 
 .contactUs {
-  width: 160px;
-  height: 30px;
+  width: 130px;
+  height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,6 +111,11 @@
   color: #ffffff;
   border: solid 1px gray;
   font-family: "Familjen Grotesk", Helvetica;
-  font-size: clamp(0.6rem, 1.5vw, 1.1rem);
+  font-size: clamp(0.8rem, 1.5vw, 0.9rem);
   font-weight: 600;
+}
+
+.contactUs:hover {
+  background-color: #93012f;
+  border: solid 1px white;
 }

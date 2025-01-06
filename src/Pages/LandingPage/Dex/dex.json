@@ -239,7 +239,7 @@
     "name": "Sushi",
     "description": "Leading multichain decentralized exchange for swapping cryptocurrency tokens.",
     "chain": "Multichain",
-    "chainLogo": "",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmT8tENeMKgNeDr1oiYSHeUptmPiZ9pbXnkwWvBxsUFpNX",
     "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmcLRt1MnkBXf7kprdB8AWRmNoK1kedFNs6328wsKQqYh1",
     "url": "https://www.sushi.com/ethereum/swap"
   },
@@ -248,7 +248,7 @@
     "name": "QuickSwap",
     "description": "Quickswap is the largest DEX on the Polygon network and includes a wide range of features. ",
     "chain": "Polygon",
-    "chainLogo": "",
+    "chainLogo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmT8tENeMKgNeDr1oiYSHeUptmPiZ9pbXnkwWvBxsUFpNX",
     "logo": "https://physical-chocolate-marmoset.myfilebase.com/ipfs/QmXz8EWGkzqJR27YsnBXf4pGfqjSz3hEFJDako9oX9YASs",
     "url": "https://quickswap.exchange/#/"
   },

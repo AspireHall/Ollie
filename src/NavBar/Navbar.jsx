@@ -43,7 +43,7 @@ const Navbar = () => {
           <Link to="ContactUs" className={classes.contactUs}>
             Contact Us &nbsp; <SendIcon />
           </Link>
-          <div className={classes.buttonoutline}>
+          {/* <div className={classes.buttonoutline}>
             <img
               className={classes.icon}
               alt="Icon park outline"
@@ -56,7 +56,7 @@ const Navbar = () => {
             >
               BUY COIN
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <PriceTicks />
